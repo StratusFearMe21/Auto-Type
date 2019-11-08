@@ -38,13 +38,13 @@ function delayedInits() {
 }
 
 function start() {
-    if (singleLetterSelector().length > 0)
+    if (singleLetterSelector-line().length > 0)
         startSingleLetter();
-    else if (screenIntroSelector().length > 0)
+    else if (screenIntroSelector-line().length > 0)
         startScreenIntro();
-    else if (screenBasicSelector().length > 0)
+    else if (screenBasicSelector-line().length > 0)
         startScreenBasic();
-    else if (screenFallingSelector().length > 0)
+    else if (screenFallingSelector-line).length > 0)
         startScreenFalling();
     else if (nitroTypeSelector().length > 0)
         startNitroType();
